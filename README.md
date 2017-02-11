@@ -1,2 +1,2 @@
 # LayIt
-Small , Simple , Mobile First CSS Framework using Flexbox
+Small , Simple , Responsive Mobile First CSS Framework using Flexbox
