@@ -55,7 +55,7 @@ blockquote:before, blockquote:after, q:before, q:after
 }
 
 
-a{
+.button{
   text-decoration: none;
   border: 1px solid #8bc34a;
   padding: 12px 20px;
@@ -75,8 +75,7 @@ a{
   text-align: center;
   text-transform: uppercase;
 }
-
-a:hover{
+.button:hover{
   background-color: #6cc644;
   color: black;
   border: 1px solid #6cc644;
