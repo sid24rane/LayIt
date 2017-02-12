@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   outline: none;
-  border: 0;	vertical-align: baseline;
+  border: 0;  vertical-align: baseline;
   -webkit-box-sizing:inherit;
   -moz-box-sizing: inherit;
   -o-box-sizing: inherit;
@@ -11,7 +11,7 @@
 }
 html
 {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;;
   font-size: 62.50%;
   line-height: 1.4;
     -webkit-box-sizing: border-box;  
@@ -54,18 +54,33 @@ blockquote:before, blockquote:after, q:before, q:after
   height: auto;
 }
 
+.clearfix,.clearfix::after,.clearfix::after
+{
+ content: "";
+  display: table;
+  clear: both;
+}
+.clearfix::after
+{
+  clear: both;
+}
 
-.button{
+
+
+.button,button,
+input[type='button'],
+input[type='reset'],
+input[type='submit']{
   text-decoration: none;
-  border: 1px solid #8bc34a;
-  padding: 12px 20px;
+  border: 0.1rem solid #8bc34a;
+  padding: 1.2rem 2rem;
   display: inline-block;
-  border-radius: 10px;
-  font-family: 'Roboto', sans-serif;
   line-height: 1.4;
+  border-radius: 0.9rem;
+  margin: 0.5rem;
   font-size: 1.6rem;
   color: white;
-  letter-spacing: 2px;
+  letter-spacing: 0.2rem;
   background-color: #8bc34a;
   opacity: 0.9;
   cursor: pointer;
@@ -73,10 +88,78 @@ blockquote:before, blockquote:after, q:before, q:after
   font-style: normal;
   font-weight: bold;
   text-align: center;
+  white-space: nowrap;
   text-transform: uppercase;
 }
-.button:hover{
+
+.button:hover,
+.button:focus,
+button:focus,
+button:hover,
+input[type='button']:hover,
+input[type='button']:focus,
+input[type='reset']:hover,
+input[type='reset']:focus,
+input[type='submit']:hover,
+input[type='submit']:focus
+{
   background-color: #6cc644;
   color: black;
   border: 1px solid #6cc644;
 }
+
+
+blockquote{
+    border-left: 0.5rem solid #606c74;
+    margin-left: 0.3rem;
+    margin-right: 0;
+    padding: 1rem 1.5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+  font-weight: 300;
+  letter-spacing: .1rem;
+  color: #606c70;
+  margin-bottom: 1.5rem;
+  margin-top: 0;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+p{
+  font-size: 1.8rem;
+  line-height: 1.9rem;
+}
+
+h1{
+  font-size: 4.8rem;
+}
+h2{
+  font-size: 3.6rem;
+}
+h3{
+  font-size: 2.8rem;
+}
+h4{
+  font-size: 2.2rem;
+}
+h5{
+  font-size: 1.9rem;
+}
+h6{
+  font-size: 1.7rem;
+}
+
+
+
+
+
