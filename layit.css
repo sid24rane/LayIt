@@ -1,0 +1,83 @@
+*,*::after,*::before
+{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: 0;	vertical-align: baseline;
+  -webkit-box-sizing:inherit;
+  -moz-box-sizing: inherit;
+  -o-box-sizing: inherit;
+  box-sizing: inherit;
+}
+html
+{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 62.50%;
+  line-height: 1.4;
+    -webkit-box-sizing: border-box;  
+  -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+  box-sizing: border-box;
+  
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section
+{
+   display: block; 
+}
+
+ul , ol 
+{
+  list-style: none;
+}
+a
+{
+  text-decoration: none;
+}
+table
+{
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+blockquote, q 
+{ 
+  quotes: none; 
+}
+blockquote:before, blockquote:after, q:before, q:after
+{ 
+  content: '';
+  content: none; 
+}
+.img-responsive
+{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+
+a{
+  text-decoration: none;
+  border: 1px solid #8bc34a;
+  padding: 12px 20px;
+  display: inline-block;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4;
+  font-size: 1.6rem;
+  color: white;
+  letter-spacing: 2px;
+  background-color: #8bc34a;
+  opacity: 0.9;
+  cursor: pointer;
+  transition: all 0.8s ease;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+a:hover{
+  background-color: #6cc644;
+  color: black;
+  border: 1px solid #6cc644;
+}
